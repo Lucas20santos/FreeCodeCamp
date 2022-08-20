@@ -1,7 +1,14 @@
 let infoCursos = 
 {
-    'programation': 
+    'programacion': 
     [
+        {
+            id: 0,
+            titulo: 'Aprender Java',
+            lenguage: 'java',
+            vistas: 12345,
+            nivel: 'basico'
+        },
         {
             id: 1,
             titulo: 'Aprende Python',
@@ -42,5 +49,11 @@ let infoCursos =
         }
     ]
 }
+
+// const id = 0;
+
+// const resultados = infoCursos.programation.filter(curso => curso.id === id);
+
+// console.log(resultados);
 
 module.exports.infoCursos = infoCursos;
