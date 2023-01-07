@@ -18,4 +18,4 @@ function decremento() {
     }
     document.getElementById("count-el").innerHTML = counterVal;
 }
-    
+  
